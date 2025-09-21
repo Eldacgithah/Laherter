@@ -10,15 +10,14 @@ RUN apt update && \
         libavcodec-dev libavutil-dev libavformat-dev libswscale-dev libavdevice-dev \
         gcc python3-dev
 
-
 RUN curl -sL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs
 
 RUN rm -rf /var/lib/apt/lists /var/cache/apt/archives /tmp/*
 
-COPY . /Legacy
+RUN git clone https://github.com/Eldacgithah/Laherter /Laherter
 
-WORKDIR /Legacy
+WORKDIR /Laherter
 
 RUN git pull --rebase
 
