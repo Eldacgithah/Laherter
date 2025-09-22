@@ -180,6 +180,8 @@ def generate_random_system_version():
         ("Windows", "7"),
         ("Windows", "8"),
         ("Windows", "10"),
+        ("Windows", "11"),
+        ("Windows", "8.1"),
         ("Ubuntu", "20.04"),
         ("Debian", "10"),
         ("Fedora", "33"),
