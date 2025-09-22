@@ -87,7 +87,7 @@ class LegacyInfoMod(loader.Module):
                 os=distro.name(pretty=True),
                 label=utils.get_platform_emoji()
                 if self._client.legacy_me.premium
-                else "🌙 <b>Legacy</b>",
+                else "🌨️ <b>Laherter</b>",
             )
             if self.config["custom_message"] and "-d" not in args
             else (
