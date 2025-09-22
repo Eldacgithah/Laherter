@@ -163,7 +163,7 @@ body {
     border-radius: .375rem;
     background-color: #16181d7f;
     border: 1px solid #2a2e37ff;
-    z-index: 99
+    z-index: 45
 }
 
 @media screen and (max-width:736px) {
