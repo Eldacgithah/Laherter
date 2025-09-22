@@ -15,7 +15,7 @@ import distro
 
 @loader.tds
 class LegacyInfoMod(loader.Module):
-    strings = {"name": "LanerterInfo"}
+    strings = {"name": "Info"}
 
     def __init__(self):
         self.config = loader.ModuleConfig(
