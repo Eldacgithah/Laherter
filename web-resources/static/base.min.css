@@ -33,7 +33,7 @@ body {
 
 .bg {
     z-index: -2;
-    background: #000
+    background: #000;
 }
 
 .bg_inner {
@@ -50,7 +50,7 @@ body {
     border-radius: 50%;
     background: #000;
     filter: blur(100px);
-    transition: background-color .5s
+    transition: background-color .5s;
 }
 
 #shootingstars,
@@ -161,9 +161,9 @@ body {
 .blur {
     padding: 3rem 6rem;
     border-radius: .375rem;
-    background-color: #16181d7f;
-    border: 1px solid #2a2e37ff;
-    z-index: 45
+    background-color: #000000cc;
+    border: 1px solid #222;
+    z-index: 45;
 }
 
 @media screen and (max-width:736px) {
@@ -547,4 +547,4 @@ label {
 
 .label_inner {
     display: flex
-}
+    }
