@@ -24,7 +24,7 @@ from ..inline.types import InlineCall
 
 @loader.tds
 class LegacyConfigMod(loader.Module):
-    strings = {"name": "LegacyConfig"}
+    strings = {"name": "LaherterConfig"}
 
     @staticmethod
     def prep_value(value: typing.Any, _cut: bool = False) -> typing.Any:
