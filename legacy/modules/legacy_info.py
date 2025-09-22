@@ -15,7 +15,7 @@ import distro
 
 @loader.tds
 class LegacyInfoMod(loader.Module):
-    strings = {"name": "LegacyInfo"}
+    strings = {"name": "LanerterInfo"}
 
     def __init__(self):
         self.config = loader.ModuleConfig(
@@ -25,7 +25,7 @@ class LegacyInfoMod(loader.Module):
             ),
             loader.ConfigValue(
                 "banner_url",
-                "https://i.postimg.cc/9MTZgB2j/legacy-info.gif",
+                "https://telegraphoto.site/images/54365989-3c6b-40f3-b135-d815a200ee38.jpg",
                 lambda: self.strings("_cfg_banner"),
             ),
         )
