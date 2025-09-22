@@ -32,7 +32,7 @@ for mod in os.scandir(DEBUG_MODS_DIR):
 
 @loader.tds
 class TestMod(loader.Module):
-    strings = {"name": "Tester"}
+    strings = {"name": "Sisrem"}
 
     def __init__(self):
         self._memory = {}
