@@ -378,7 +378,7 @@ class UpdaterMod(loader.Module):
                                 and dialog.entity.id
                                 == self._client.loader.inline.bot_id
                             )
-                            or dialog.entity.id in [2577311568]  # official legacy chat
+                            or dialog.entity.id in [2997293865]  # official https://t.me/Laherter chat
                         ],
                         emoticon="⭐️",
                         exclude_peers=[],
