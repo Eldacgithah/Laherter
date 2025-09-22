@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 @loader.tds
 class Help(loader.Module):
-    strings = {"name": "Help"}
+    strings = {"name": "Laherter_Help"}
 
     def __init__(self):
         self.config = loader.ModuleConfig(
