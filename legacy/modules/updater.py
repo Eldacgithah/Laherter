@@ -36,7 +36,7 @@ logger = logging.getLogger(__name__)
 
 @loader.tds
 class UpdaterMod(loader.Module):
-    strings = {"name": "Updater"}
+    strings = {"name": "Laherter_Update"}
 
     def __init__(self):
         self.config = loader.ModuleConfig(
