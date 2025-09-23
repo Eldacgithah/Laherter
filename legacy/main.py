@@ -815,10 +815,10 @@ class Legacy:
       r"     *   | | | | | | | | |_| | | |  ❄" "\n"
       r"         |_| |_| |_| |_|\__|_| |_|      *" "\n"
       r"      *       ❄        *       .    *" "\n"
-      r"          L A H A R T E R ❄ 🌙🌙🌙" "\n\n"
+      r"          L A H A R T E R ❄ 🌙" "\n\n"
       f"• Build: {build[:7]}\n"
       f"• Version: {'.'.join(map(str, __version__))}\n"
-      f"• Winter ❄ Edition 🌙🌙🌙\n"
+      f"• Winter ❄ Edition 🌙☃️\n"
             )
 
             if not self.omit_log:
@@ -829,7 +829,7 @@ class Legacy:
                     else ""
                 )
                 logging.debug(
-                    f"\n🌙 {__version__} #{build[:7]} ({upd}) started\n{web_url}"
+                    f"\n🏔️ {__version__} #{build[:7]} ({upd}) started\n{web_url}"
                 )
 
                 self.omit_log = True
@@ -838,7 +838,7 @@ class Legacy:
                 logging.getLogger().handlers[0].get_logid_by_client(client.tg_id),
                 "https://i.postimg.cc/13x4nnxm/41-9-D6-DF8-E.gif",
                 caption=(
-                    "🌙❄️<b>Laharter started!</b>\n"
+                    "❄️<b>Laharter started!</b>\n"
                     '🌨️ <b>GitHub SHA: <a href="https://github.com/Eldacgithah/Laherter/commit/{}">{}</a></b>\n'
                     "🏔️ <b>Update status: {}</b>\n<b>{}</b>"
                 ).format(
