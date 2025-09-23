@@ -824,7 +824,7 @@ class Legacy:
             if not self.omit_log:
                 print(logo)
                 web_url = (
-                    f"🔗 Web url: {self.web.url}"
+                    f"☃️ ❄️Web login❄️: {self.web.url}"
                     if self.web and hasattr(self.web, "url")
                     else ""
                 )
@@ -838,14 +838,14 @@ class Legacy:
                 logging.getLogger().handlers[0].get_logid_by_client(client.tg_id),
                 "https://i.postimg.cc/13x4nnxm/41-9-D6-DF8-E.gif",
                 caption=(
-                    "🌙 <b>Legacy started!</b>\n"
-                    '⚙ <b>GitHub commit SHA: <a href="https://github.com/Crayz310/Legacy/commit/{}">{}</a></b>\n'
-                    "🔎 <b>Update status: {}</b>\n<b>{}</b>"
+                    "🌙❄️<b>Laharter started!</b>\n"
+                    '🌨️ <b>GitHub SHA: <a href="https://github.com/Eldacgithah/Laherter/commit/{}">{}</a></b>\n'
+                    "🏔️ <b>Update status: {}</b>\n<b>{}</b>"
                 ).format(
                     build,
                     build[:7],
                     upd,
-                    f"🔗 Web url: {self.web.url}" if self.web else "",
+                    f" ☃️ ❄️Web url❄️: {self.web.url}" if self.web else "",
                 ),
             )
 
