@@ -836,7 +836,7 @@ class Legacy:
 
             await client.legacy_inline.bot.send_animation(
                 logging.getLogger().handlers[0].get_logid_by_client(client.tg_id),
-                "https://i.postimg.cc/13x4nnxm/41-9-D6-DF8-E.gif",
+                "https://telegraphoto.site/images/b3cfef01-59f6-419d-8ebb-fbc7c98f7107.jpg",
                 caption=(
                     "❄️<b>Laharter started!</b>\n"
                     '🌨️ <b>GitHub SHA: <a href="https://github.com/Eldacgithah/Laherter/commit/{}">{}</a></b>\n'
