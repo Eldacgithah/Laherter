@@ -815,7 +815,7 @@ class Legacy:
       r"     *   | | | | | | | | |_| | | |  ❄" "\n"
       r"         |_| |_| |_| |_|\__|_| |_|      *" "\n"
       r"      *       ❄        *       .    *" "\n"
-      r"          L A H A R T E R ❄ 🌙" "\n\n"
+      r"          L A H E R T E R ❄ 🌙" "\n\n"
       f"• Build: {build[:7]}\n"
       f"• Version: {'.'.join(map(str, __version__))}\n"
       f"• Winter ❄ Edition 🌙☃️\n"
@@ -824,7 +824,7 @@ class Legacy:
             if not self.omit_log:
                 print(logo)
                 web_url = (
-                    f"☃️ ❄️Web login❄️: {self.web.url}"
+                    f"☃️ ❄️Web panel❄️: {self.web.url}"
                     if self.web and hasattr(self.web, "url")
                     else ""
                 )
@@ -838,14 +838,14 @@ class Legacy:
                 logging.getLogger().handlers[0].get_logid_by_client(client.tg_id),
                 "https://telegraphoto.site/images/b3cfef01-59f6-419d-8ebb-fbc7c98f7107.jpg",
                 caption=(
-                    "❄️<b>Laharter started!</b>\n"
+                    "❄️<b>Laherter started!</b>\n"
                     '🌨️ <b>GitHub SHA: <a href="https://github.com/Eldacgithah/Laherter/commit/{}">{}</a></b>\n'
                     "🏔️ <b>Update status: {}</b>\n<b>{}</b>"
                 ).format(
                     build,
                     build[:7],
                     upd,
-                    f" ☃️ ❄️Web url❄️: {self.web.url}" if self.web else "",
+                    f" ☃️ ❄️Web panel❄️: {self.web.url}" if self.web else "",
                 ),
             )
 
