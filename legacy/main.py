@@ -84,7 +84,7 @@ BASE_DIR = (
 )
 
 BASE_PATH = Path(BASE_DIR)
-ASSETS_PATH = "https://telegraphoto.site/images/59b2fd6b-4e8a-422f-9aa2-486c83505a77.jpg"
+ASSETS_PATH = "https://i.postimg.cc/BbBf4mxm/legacy-assets.png"
 BACKUPS_PATH = "https://raw.githubusercontent.com/Crayz310/Legacy/refs/heads/master/assets/legacy-backups.png"
 LOGS_PATH = "https://raw.githubusercontent.com/Crayz310/Legacy/refs/heads/master/assets/legacy-logs.png"
 AVATAR_PATH = os.path.join(os.getcwd(), "assets", "legacy-pfp.png")
